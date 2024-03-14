@@ -1,4 +1,4 @@
-function EggsPage() {
+function EggsComponent() {
 
   const chickenInfoList = [
     {
@@ -43,7 +43,7 @@ function EggsPage() {
       <div className="bg-transparent max-w-7xl w-full p-8 rounded-lg shadow-lg relative mt-20 flex items-center justify-between bg-opacity-20">
         <div className="absolute inset-0 bg-black opacity-20 rounded-lg"></div>
         {/* <h1 className="text-2xl text-white">Incubadora Egg v1.5</h1> */}
-        <img src="/incubadora.png" alt="Incubadora" className="w-1/4 absolute top-0 left-0 -mt-16 p-8" />
+        <img src="/incubadora.png" alt="Incubadora" className="w-1/4" />
         <div className="flex flex-col justify-between w-3/4">
           <div className="grid grid-cols-2 gap-4">
             {chickenInfoList.map((chickenInfo, index) => (
@@ -66,4 +66,4 @@ function EggsPage() {
   );
 }
 
-export default EggsPage;
+export default EggsComponent;

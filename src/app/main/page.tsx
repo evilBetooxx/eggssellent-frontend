@@ -1,4 +1,4 @@
-import MainPage from "../../componentes/incubator/mainPage"
+import MainPage from "../../pages/mainPage/page"
 
 function page() {
   return (

@@ -1,4 +1,4 @@
-import EggsPage from '../../componentes/eggs/eggsPage'
+import EggsPage from '../../pages/eggsPage/page'
 
 import React from 'react'
 
