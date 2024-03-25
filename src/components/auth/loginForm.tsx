@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function LoginForm() {
   const {
@@ -72,9 +72,9 @@ function LoginForm() {
             </button>
             <div className="mt-4 text-center">
               <span className="text-white">¿No tienes una cuenta? </span>
-              <a href="/pages/register" className="text-white  font-bold">
+              <Link href="/register" className="text-white  font-bold">
                 Crear cuenta
-              </a>
+              </Link>
             </div>
           </form>
 

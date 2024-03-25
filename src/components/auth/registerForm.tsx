@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
+import Link from "next/link";
 
 function RegisterForm() {
   const {
@@ -87,10 +88,10 @@ function RegisterForm() {
                   },
                 })}
                 className="w-full border border-gray-300 p-2 rounded-lg text-black"
-                style={{ backgroundColor: "rgba(255, 255, 255, 0.3)" }}
-                placeholder="atencion@barhalla.com"
+                style={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
+                placeholder="atencion@eggssellent.com"
               />
-              {errors.email && <p className="text-red-500">correo invalido</p>}
+              {errors.email && <p className="text-red-500">Correo invalido</p>}
             </div>
 
             <div className="mb-4">
@@ -122,23 +123,23 @@ function RegisterForm() {
             </button>
             <div className="mt-4 text-center">
               <span className="text-white">¿Ya tienes una ceunta? </span>
-              <a href="/pages/login" className="text-white  font-bold">
+              <Link href="/login" className="text-white  font-bold">
                 Inicia sesion
-              </a>
+              </Link>
             </div>
           </form>
 
           <div className="md:w-1/2 text-white flex justify-center items-center">
-            <p className="text-3xl">
+            <p className="text-3xl font-bold">
               Eggssellent,
               <br />
               más que una
               <br />
               incubadora ...
               <br />
-              ¡cuidando cada paso
+              ¡Cuidando cada 
               <br />
-              del proceso!
+              paso del proceso!
             </p>
           </div>
         </div>
