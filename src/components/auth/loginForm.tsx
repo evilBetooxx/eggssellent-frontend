@@ -79,16 +79,16 @@ function LoginForm() {
           </form>
 
           <div className="md:w-1/2 text-white flex justify-center items-center">
-            <p className="text-3xl">
+            <p className="text-3xl font bold">
               Eggssellent,
               <br />
               más que una
               <br />
               incubadora ...
               <br />
-              ¡cuidando cada paso
+              ¡cuidando cada
               <br />
-              del proceso!
+              paso del proceso!
             </p>
           </div>
         </div>

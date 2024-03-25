@@ -88,7 +88,7 @@ function RegisterForm() {
                   },
                 })}
                 className="w-full border border-gray-300 p-2 rounded-lg text-black"
-                style={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
+                style={{ backgroundColor: "rgba(255, 255, 255, 0.3)" }}
                 placeholder="atencion@eggssellent.com"
               />
               {errors.email && <p className="text-red-500">Correo invalido</p>}
@@ -122,9 +122,11 @@ function RegisterForm() {
               Entrar
             </button>
             <div className="mt-4 text-center">
-              <span className="text-white">¿Ya tienes una ceunta? </span>
+              <span className="text-white">
+                ¿Ya tienes una cuenta? <br />{" "}
+              </span>
               <Link href="/login" className="text-white  font-bold">
-                Inicia sesion
+                Inicia sesión
               </Link>
             </div>
           </form>
@@ -137,7 +139,7 @@ function RegisterForm() {
               <br />
               incubadora ...
               <br />
-              ¡Cuidando cada 
+              ¡Cuidando cada
               <br />
               paso del proceso!
             </p>
